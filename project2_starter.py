@@ -47,11 +47,11 @@ class SimpleBattle:
         
         # Decide winner or tie
         if self.char1.health > self.char2.health:
-            print(f"🏆 {self.char1.name} wins!")
+            print(f" {self.char1.name} wins!")
         elif self.char2.health > self.char1.health:
-            print(f"🏆 {self.char2.name} wins!")
+            print(f" {self.char2.name} wins!")
         else:
-            print("🤝 It's a tie!")
+            print(" It's a tie!")
 
 import random  # For critical hits
 
@@ -208,13 +208,13 @@ if __name__ == "__main__":
     rogue = Rogue("Robin Hood")
     
     # Show all stats
-    print("\n📊 Character Stats:")
+    print("\n Character Stats:")
     warrior.display_stats()
     mage.display_stats()
     rogue.display_stats()
     
     # Test same method name (attack) but different results
-    print("\n⚔️ Testing Polymorphism (same attack method, different behavior):")
+    print("\n Testing Polymorphism (same attack method, different behavior):")
     dummy_target = Character("Target Dummy", 100, 0, 0)
     
     # Each character attacks the dummy
@@ -224,7 +224,7 @@ if __name__ == "__main__":
         dummy_target.health = 100  # Reset dummy after each test
     
     # Try each special move
-    print("\n✨ Testing Special Abilities:")
+    print("\n Testing Special Abilities:")
     target1 = Character("Enemy1", 50, 0, 0)
     target2 = Character("Enemy2", 50, 0, 0)
     target3 = Character("Enemy3", 50, 0, 0)
@@ -234,7 +234,7 @@ if __name__ == "__main__":
     rogue.sneak_attack(target3)
     
     # Show weapons
-    print("\n🗡️ Testing Weapon Composition:")
+    print("\n Testing Weapon Composition:")
     sword = Weapon("Iron Sword", 10)
     staff = Weapon("Magic Staff", 15)
     dagger = Weapon("Steel Dagger", 8)
@@ -244,9 +244,9 @@ if __name__ == "__main__":
     dagger.display_info()
     
     # Run the built-in battle system
-    print("\n⚔️ Testing Battle System:")
+    print("\n Testing Battle System:")
     battle = SimpleBattle(warrior, mage)
     battle.fight()
     
-    print("\n✅ Testing complete!")
+    print("\n Testing complete!")
 

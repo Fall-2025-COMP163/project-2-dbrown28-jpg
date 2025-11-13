@@ -10,7 +10,7 @@ First save the code file in any text editor or IDE
 
 Copy and paste all of the Python code into a new file.
 
-Save the file with this exact name (or something similar): project2_character_showcase.py
+Save the file with this exact name (or something similar): project2_starter.py
 
 Open a Terminal / Command Prompt
 

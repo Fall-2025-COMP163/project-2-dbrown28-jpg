@@ -1,10 +1,19 @@
+Bonus Creative Features: Did you add anything unique? 
 Added nothing unique
-I only used AI to learn inheritence concepts in detail as well as how and where to apply said concepts.
+
+AI Usage: What AI assistance did you use and where? 
+ I only used AI to learn inheritence concepts in detail as well as how and where to apply said concepts.
+
+How to Run: Clear instructions for testing your code 
+
 First save the code file in any text editor or IDE
+
 Copy and paste all of the Python code into a new file.
+
 Save the file with this exact name (or something similar): project2_character_showcase.py
 
 Open a Terminal / Command Prompt
+
 On Windows: Press Win + R, type cmd, then press Enter.
 
 On Mac/Linux: Open Terminal from your applications or search bar.
@@ -18,6 +27,7 @@ python project2_character_showcase.py
 When you run it, you don’t need to type any input — everything happens automatically.
 
 If you want to run a battle use the provided SimpleBattle class.
+
 Example: 
 battle = SimpleBattle(warrior, mage)
 battle.fight()
